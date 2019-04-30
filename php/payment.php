@@ -15,11 +15,7 @@
 <button id="bKash_button">Pay With bKash</button>
 
 <script type="text/javascript">
-    //alert(document.getElementById("myScript").src);
-    //document.getElementById("x").innerHTML = x;
-    //x.setAttribue("src","https://scripts.sit.labs.bka.sh/versions/1.2.0-beta/checkout/bKash-checkout-labs-sit.js");
-    //x.src="https://scripts.sit.labs.bka.sh/versions/1.2.0-beta/checkout/bKash-checkout-labs-sit.js";
-    
+ 
     var accessToken='';
     $(document).ready(function(){
         $.ajax({
