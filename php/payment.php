@@ -102,6 +102,9 @@
                         bKash.execute().onError();
                     }
                 });
+            },
+            onClose: function() {
+                alert('closed')
             }
         });
         
